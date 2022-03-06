@@ -1,0 +1,7 @@
+/* pages/demo05/demo05.wxss */
+view {
+    width: 200rpx;
+    height: 200rpx;
+    font-size: 40rpx;
+    background-color: aqua;
+}

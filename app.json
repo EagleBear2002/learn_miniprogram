@@ -1,0 +1,19 @@
+{
+    "pages": [
+        "pages/demo17/demo17",
+        "pages/wxml/index",
+        "pages/index/index",
+        "pages/demo05/demo05",
+        "pages/demo04/demo04",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Wechat",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

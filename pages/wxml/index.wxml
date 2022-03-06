@@ -1,0 +1,34 @@
+<!-- pages/wxml/index.wxml -->
+<text data-test="{{test}}">hello world</text>
+<!-- This is our View -->
+<view>Hello {{name}}!</view>
+<button bindtap="changeName">Click me!</button>
+<view>{{1+1}}</view>
+<view>{{2 % 2 == 0 ? "even" : "odd"}}</view>
+<view>
+    <!-- <view wx:for="{{list}}" wx:for-item="item" wx:for-index="idex"> -->
+    <view wx:for="{{list}}">索引: {{index}}
+        ----------------
+        值: {{item.name}}</view>
+</view>
+<view>
+    <view>对象循环</view>
+    <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+        属性：{{key}}
+    --
+    值：{{value}}
+    --
+    {{age}}
+    </view>
+</view>
+<view>
+    <view>对象循环</view>
+    <block wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age"
+    class="my_list">
+    属性：{{key}}
+    --
+    值：{{value}}
+    --
+    {{age}}
+    </block>
+</view>

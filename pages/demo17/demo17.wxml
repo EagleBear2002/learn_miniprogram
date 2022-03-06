@@ -1,0 +1,3 @@
+<!-- pages/demo17/demo17.wxml -->
+
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>

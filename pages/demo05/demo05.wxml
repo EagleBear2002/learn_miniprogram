@@ -1,0 +1,6 @@
+<!--pages/demo05/demo05.wxml-->
+<text>pages/demo05/demo05.wxml</text><br />
+<text selectable="true">长按复制</text>
+<view hover-class="h-class">
+    rpx
+</view>
